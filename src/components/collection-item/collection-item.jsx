@@ -19,8 +19,6 @@ return (
 );
 };
 
-
-
 const mapDispatchToProps = dispatch => ({
   addItem: item => dispatch(addItem(item))
 });
